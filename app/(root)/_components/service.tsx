@@ -3,7 +3,7 @@ import React from 'react';
 
 const ServicePage = () => {
 	return (
-		<div className='bg-[#E7DAED] py-6 rounded-xl p-8 '>
+		<div className='bg-[#F9F9FF] py-6 rounded-xl p-8 '>
 			<h2 className='text-5xl font-bold text-center py-5'> Services we offer</h2>
 			<div className='grid grid-cols-4 gap-8'>
 				<div className='p-4 space-y-2 border bg-white rounded-sm '>

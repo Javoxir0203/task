@@ -5,7 +5,7 @@ const Footer = () => (
 	<>
 		<div className='container mx-auto  py-8 flex items-center justify-between'>
 			<div className='grid grid-cols-12'>
-				<div className='col-span-4'>
+				<div className='col-span-4 flex flex-col gap-6'>
 					<Image src='/Logo.svg' width={200} height={50} alt='logo' />
 					<p className='text-sm text-gray-600 w-4/5 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quae maxime, ad hic quia deserunt minus adipisci iusto? Repellat, ipsa?</p>
 					<Image src='/google-page-speed 1.svg' width={200} height={50} alt='logo' />
