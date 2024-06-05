@@ -1,4 +1,6 @@
 import Baner from '../_components/baner';
+import Kurs from '../_components/kurs';
+import Mark from '../_components/mark';
 import ServicePage from '../_components/service';
 
 const page = () => {
@@ -6,6 +8,8 @@ const page = () => {
 		<div>
 			<Baner />
 			<ServicePage />
+			<Kurs/>
+			<Mark/>
 		</div>
 	);
 };
